@@ -105,7 +105,7 @@ const PhotoList = ({ category }) => {
   return (
     <div>
       <div className="flex-row">
-      {currentPhotos.map((image, i) => (
+        {currentPhotos.map((image, i) => (
           <img
             src={require(`../../assets/small/${category}/${i}.jpg`)}
             alt={image.name}
